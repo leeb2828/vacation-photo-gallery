@@ -30,5 +30,8 @@ $ deactivate
 <br />
 
 ![Home Page Image](project_screenshots/homepage.png)
+
+Click on one of the vacations.
+
 ![Portland Maine photo gallery](project_screenshots/portland_maine_gallery.png)
-![Panama City Photo gallery](project_screenshots/panama_city_gallery.png)
+![Panama City](project_screenshots/panama_city_beach_gallery.png)

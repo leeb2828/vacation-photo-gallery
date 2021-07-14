@@ -34,4 +34,3 @@ $ deactivate
 Click on one of the vacations.
 
 ![Portland Maine photo gallery](project_screenshots/portland_maine_gallery.png)
-![Panama City](project_screenshots/panama_city_beach_gallery.png)

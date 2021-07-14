@@ -31,8 +31,14 @@ $ deactivate
 
 ![Home Page Image](project_screenshots/homepage.png)
 
-Click on one of the vacations on the index.html page: Acadia National Park, Panama city Beach, Portland Maine, Snoqualmie Falls Park, or 
-Valley Forge National Park. The user will be redirected to the photo_gallery.html page with the location displayed at the top and
+When the user selects one of the following vacations on the index.html page: 
+- Acadia National Park 
+- Panama city Beach 
+- Portland Maine 
+- Snoqualmie Falls Park 
+- Valley Forge National Park. 
+<br />
+The user will be redirected to the photo_gallery.html page with the location displayed at the top and
 all the photos from that vacation dynamically displayed on the page.
 
 ![Portland Maine photo gallery](project_screenshots/portland_maine_gallery.png)

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- look up "static files" in flask documentation -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+    <title>Vacation Photo Gallery</title>
+</head>
+<body>
+    <main>
+        <h2 id="main_title">MY VACATIONS</h2>
+        <section id="vacations">
+            <!-- Need link to photo_gallery.html. vacation name and folder name -->
+            {% if rows %}
+                {% for row in rows %}
+                    <div class="single_vacation">
+                        <div class="location_name">
+                            <h4>{{ row['location'] }}</h4>
+                        </div>
+                        <a href="{{ url_for('view_gallery', name=row['location'], folder=row['folder']) }}" target="_blank">
+                            <img src="{{ url_for('static', filename='images/main.png') }}" alt="image">
+                        </a>
+                    </div>
+                {% endfor %}
+            {% endif %}
+        </section>
+    </main> 
+</body>
+</html>

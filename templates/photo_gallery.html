@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Galada&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/photo_gallery.css') }}">
+    <title>{{ name }}</title>
+</head>
+<body>
+    <h1 id="main_title">{{ name }}</h1>
+    
+    <section id="photo_gallery">
+        {% if photos %}
+            {% set key = namespace(value=1) %}
+            {% for photo in photos %}
+                <div><img id={{key.value}} class="item" src="{{photo}}"></div><br>
+                {% set key.value = key.value + 1 %}
+            {% endfor %}
+        {% endif %}
+    </section>
+    <br>
+
+
+    <!-- The modal that pops up when the user clicks on a photo  -->
+    <section>
+        <div id="myModal">
+            <!-- Look up HTML entity names -->
+            <span class="close">&times;</span>
+            <a class="current_pic" href="">
+                <img class="modal_content">
+            </a>
+            <div id="navigate_pics">
+                <span class="backwards">&laquo;</span>
+                <span class="forward">&raquo;</span>
+            </div>
+        
+        </div>
+    </section>
+    
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+    
+
+
+    
+</body>
+</html>

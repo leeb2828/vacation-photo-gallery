@@ -1,0 +1,24 @@
+{
+    "vacations": [
+        {
+            "location": "Acadia National Park",
+            "folder": "acadia_national_park"
+        },
+        {
+            "location": "Panama City Beach",
+            "folder": "panama_city_beach"
+        },
+        {
+            "location": "Portland Maine",
+            "folder":"portland_maine"
+        },
+        {
+            "location": "Snoqualmie Falls Park",
+            "folder": "snoqualmie_falls_park"        
+        },
+        {
+            "location": "Valley Forge National Park",
+            "folder": "valley_forge_national_park"
+        }
+    ]
+}

@@ -1,0 +1,110 @@
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+body {
+    background: rgb(214, 209, 209);
+    overflow-x: hidden;
+}
+
+img {
+    width: 260px;
+    height: 200px;
+}
+
+/* My Vacation! */
+#main_title {
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Galada', cursive, sans-serif;
+    text-align: center;
+}
+
+#photo_gallery {
+    background: #5c919e;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 2%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.item {
+    margin: 5px;
+    border: 2px solid grey;
+    cursor: pointer;
+}
+
+/* The Modal window */
+#myModal {
+    display: none;
+    position: fixed;
+    padding-top: 90px;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0.9);
+}
+
+
+.modal_content {
+    width: 100%;
+    max-width: 700px;
+    height: auto;
+    display: block;
+    margin: auto;
+}
+
+
+.close {
+    cursor: pointer;
+    font-size: 40px;
+    color: #fff;
+    position: absolute;
+    top: 15px;
+    right: 35px;
+}
+
+#navigate_pics {
+    width: 100px;
+    height: 50px;
+    padding: 2px;
+    background: rgba(0, 0, 0.9);
+    color: white;
+    font-size: 40px;
+    margin: 0 auto;
+}
+
+.forward,
+.backwards {
+    cursor: pointer;
+    height: 45px;
+}
+
+.forward {
+    float: right;
+
+}
+
+.backwards {
+    float: left;
+
+}
+
+
+
+
+
+
+

@@ -1,0 +1,68 @@
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    padding: 0;
+    margin: 0;
+    height: 100%;
+}
+
+body {
+    font-size: 12px;
+    font-family: sans-serif;
+    background: rgb(214, 209, 209);
+    overflow-x: hidden;
+}
+
+/* Main Content */
+main {
+    background: #fff;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1324px;
+    min-height: 100vh;
+}
+
+#main_title {
+    letter-spacing: 3px;
+    background: #5c919e;
+    padding: 1em;
+    text-align: center;
+    margin-top: 0;
+}
+
+#vacations {
+    width: 100%;
+    /* CSS GRID */
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 3fr));
+    grid-gap: 1em;
+}
+
+.single_vacation {
+    padding: 5px;
+    height: 100%;
+    /* FLEXBOX */
+    display: flex;
+    display: -ms-flexbox; /* IE 10 */
+    flex-direction: column;
+}
+
+.location_name {
+    text-align: center;
+    height: 60px;
+    width: 100%;
+}
+
+.location_name h4 {
+    font-size: 16px;
+    margin-top: 0;
+}
+
+.single_vacation img {
+    width: 100%;
+    height: auto;
+    border: 1px solid black;
+}

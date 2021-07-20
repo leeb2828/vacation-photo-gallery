@@ -30,7 +30,7 @@ $ deactivate
 <br />
 
 ## About this Project
-This project was built from scratch using HTML, CSS, CSS Grid, Flexbox, JavaScript, and Python Flask. When the user selects a "vacation", a photo gallery appears. The user can select a photo and, using the forward and backwards arrows, go through the entire gallery from the selected location. 
+This project was built from scratch using HTML, CSS, CSS Grid, Flexbox, JavaScript, and Python Flask. 
 
 ![Home Page Image](project_screenshots/homepage.png)
 
@@ -42,6 +42,6 @@ When the user selects one of the following vacations on the index.html page:
 - Valley Forge National Park. 
 <br />
 The user will be redirected to the photo_gallery.html page with the location displayed at the top and
-all the photos from that vacation dynamically displayed on the page.
+all the photos from that vacation dynamically displayed on the page. The user can select a photo and, using the forward and backwards arrows, go through the entire gallery from the selected location. 
 
 ![Portland Maine photo gallery](project_screenshots/portland_maine_gallery.png)

@@ -29,6 +29,9 @@ $ deactivate
 ```
 <br />
 
+## About this Project
+This project was built from scratch using HTML, CSS, CSS Grid, Flexbox, JavaScript, and Python Flask. When the user selects a "vacation", a photo gallery appears. The user can select a photo and, using the forward and backwards arrows, go through the entire gallery from the selected location. 
+
 ![Home Page Image](project_screenshots/homepage.png)
 
 When the user selects one of the following vacations on the index.html page: 
